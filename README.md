@@ -10,3 +10,7 @@ change the name of the database to:laravel_api
 *make a new model called employee:
 php artisan make:model Employee -m
 
+
+*after we defined the fields for the database in the model file, 
+run:php artisan migrate again
+
