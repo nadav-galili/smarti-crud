@@ -14,3 +14,4 @@ php artisan make:model Employee -m
 *after we defined the fields for the database in the model file, 
 run:php artisan migrate again
 
+*run:php artisan tinker
