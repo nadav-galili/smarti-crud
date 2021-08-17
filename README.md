@@ -15,3 +15,6 @@ php artisan make:model Employee -m
 run:php artisan migrate again
 
 *run:php artisan tinker
+*to make a controller i ran- 
+php artisan make:controller EmployeeApiController
+
