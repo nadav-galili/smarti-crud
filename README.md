@@ -5,3 +5,6 @@ $ composer create-project laravel/laravel laravel
 
 *in the .env file, 
 change the name of the database to:laravel_api
+
+*in the laravel folder: php artisan migrate
+
