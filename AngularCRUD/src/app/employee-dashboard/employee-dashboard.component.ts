@@ -3,6 +3,8 @@ import {FormBuilder, FormGroup} from '@angular/forms'
 import { EmployeeModel } from './employee-dashboard.model';
 import { ApiService } from '../shared/api.service';
 
+
+
 @Component({
   selector: 'app-employee-dashboard',
   templateUrl: './employee-dashboard.component.html',
@@ -14,6 +16,8 @@ employeeModelObj : EmployeeModel =new EmployeeModel();
  employeeData !: any;
  showAdd !: boolean;
  showUpdate !:boolean;
+
+
  
   constructor(private formbuilder: FormBuilder ,
     private api : ApiService) { }
@@ -104,5 +108,7 @@ updateEmployeeDetails(){
     this.getAllEmployee();
   })
 }
+
+
 
 }

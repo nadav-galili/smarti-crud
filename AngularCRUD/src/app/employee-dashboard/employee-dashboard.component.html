@@ -1,6 +1,7 @@
 <nav class="navbar navbar-light bg-primary">
     <div class="container">
         <h1 style="color:aliceblue">Smarti-CRUD</h1>
+        <h3> Nadav Galili</h3>
         <div class="d-flex">
             <button (click)="clickAddEmployee()" class="btn btn-success" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Add Employee
@@ -9,9 +10,9 @@
     </div>
 </nav>
 
-<table class="table container mt-3">
-    <thead>
-        <tr >
+<table class="table table-bordered container mt-3">
+    <thead><h2>Employees Table</h2>
+        <tr>
             <th scope="col">Employee Id</th>
             <th scope="col">First Name</th>
             <th scope="col">Last Name</th>
@@ -75,3 +76,5 @@
       </div>
     </div>
   </div>
+
+  

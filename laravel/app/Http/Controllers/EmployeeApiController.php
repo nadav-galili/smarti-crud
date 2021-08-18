@@ -13,6 +13,9 @@ class EmployeeApiController extends Controller
         return Employee::all();
     }
 
+ 
+ 
+
     // Post a new employee
     public function store(){
         request()->validate([
@@ -56,4 +59,7 @@ class EmployeeApiController extends Controller
             'success'=>$success
         ];
     }
+
+
+    
 }

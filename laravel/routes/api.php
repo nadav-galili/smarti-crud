@@ -33,3 +33,6 @@ Route::put('/employees/{employee}', [EmployeeApiController::class, 'update']);
 
 // Delete an employee by id
 Route::delete('/employees/{employee}', [EmployeeApiController::class, 'destroy']);
+
+Route::get('/employees/{employee}', [EmployeeApiController::class, 'getById']);
+    

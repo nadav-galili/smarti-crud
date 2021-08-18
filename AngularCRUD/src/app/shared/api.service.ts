@@ -1,7 +1,16 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {map} from 'rxjs/operators';
+// import { Observable } from 'rxjs';
 
+export interface Employee {
+  id: string;
+  first_name: string;
+  last_name:string;
+  job_title :string;
+  salary: number;
+ 
+}
 
 @Injectable({
   providedIn: 'root'
@@ -42,4 +51,15 @@ export class ApiService {
        return res;
      }))
    }
+
+  //  getEmployeesForSearch(term: string = null){
+  //   if (term) {
+  //     return this.http.get<any>(`http://localhost/smarti-crud/laravel/public/api/employees/${term}`).pipe(map(rsp => rsp.items));
+  // } else {
+  //     return of([]);
+  // }
+  //  }
+
+
+
 }
