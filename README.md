@@ -67,7 +67,7 @@ after deployement
 * bootstrap
 * font awesome cdn
 
-*You can find the SQL DB file in this repo ("laravel_api.sql")
+*You can find the SQL DB file in this repo ("Employees.sql")
 
 ## Project Images
 
